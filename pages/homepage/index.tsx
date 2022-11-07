@@ -25,7 +25,7 @@ const Homepage = () => {
     </div> */}
         <nav className="flex justify-between items-center py-8 px-6 mx-auto max-w-screen-xl md:px-12 lg:px-16 xl:px-24">
           <a href="#" className="text-3xl md:text-4xl font-bold tracking-wide">
-            Organ<span className="text-green-500">o</span>
+            Dok<span className="text-green-500">o</span>
           </a>
           <div
             className="inset-0 transition-all bg-white/70 backdrop-blur-xl z-20 md:static md:bg-transparent md:flex items-center justify-center space-y-8 md:space-y-0 md:space-x-8 flex-col md:flex-row lg:space-x-14"
@@ -147,13 +147,10 @@ const Homepage = () => {
                 className="w-6 h-6 text-gray-900 fill-current"
               /> */}
               <img
-                className="w-6 h-6 text-gray-900 fill-current"
-                height={"100"}
-                width={"100"}
-                src={StarIcon}
+                className="w-8 h-8 text-gray-900 fill-current"
+                src="/img/temone.png"
                 alt="logo"
               />
-              <span>Fueler</span>
             </div>
           </div>
         </div>
