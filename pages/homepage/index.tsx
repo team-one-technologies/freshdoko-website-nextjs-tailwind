@@ -113,7 +113,7 @@ const Homepage = () => {
             <div className="absolute right-0 lg:-right-6 top-0 lg:top-28 flex flex-col py-5 px-7 rounded-2xl shadow-xl bg-white/80 backdrop-blur-xl hover:-translate-y-2 hover:shadow-2xl transition-all duration-300">
               <div className="flex -space-x-3">
                 {[1, 2, 3].map((d) => (
-                  <div className="w-13 h-13 rounded-full border-4 border-white object-cover overflow-hidden">
+                  <div key={d} className="w-13 h-13 rounded-full border-4 border-white object-cover overflow-hidden">
                     <img src={`/img/avatar-${d}.jpeg`} alt="" />
                   </div>
                 ))}
