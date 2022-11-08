@@ -52,7 +52,7 @@ const Footer = () => {
             </a>
           </div>
           <p className="mt-8 text-base leading-6 text-center text-black">
-            © 2021 Khrystalline, Inc. All rights reserved.
+            © 2021 Fresh Doko, Inc. All rights reserved.
           </p>
         </div>
   </section>;
