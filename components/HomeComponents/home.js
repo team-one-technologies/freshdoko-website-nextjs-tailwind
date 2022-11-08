@@ -42,7 +42,7 @@ const Homepage = () => {
                 People &#x1F9E1; this 
               </div>
               <div className="font-bold text-green leading-relaxed">
-                80+ oranic vegetable
+                80+ organic vegetable
               </div>
             </div>
           </div>
@@ -83,10 +83,6 @@ const Homepage = () => {
                 30 mins delivery 🚀
               </div>
             </div>
-          </div>
-          <div className="hidden md:flex justify-end space-x-1 font-bold">
-            <span>Powered by </span>
-            <span className="text-orange-600">TeamOne Technologies</span>
           </div>
         </div>
       </div>

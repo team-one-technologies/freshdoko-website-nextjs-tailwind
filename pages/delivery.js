@@ -1,8 +1,9 @@
 const Delivery = () =>{
     return(
-        <div>
-
-        </div>
+        <div className="flex min-h-full">
+            
+        </div>       
     )
 }
-export default Delivery;
+
+export  default Delivery;

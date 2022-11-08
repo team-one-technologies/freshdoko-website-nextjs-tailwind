@@ -52,8 +52,10 @@ const Footer = () => {
             </a>
           </div>
           <p className="mt-8 text-base leading-6 text-center text-black">
-            © 2021 Fresh Doko, Inc. All rights reserved.
+            © 2022 Fresh Doko, Inc. All rights reserved.
           </p>
+            <p className="mt-8 text-xl leading-6 text-center font-semibold">Powered by <span className="text-orange-600">TeamOne Technologies</span> </p>
+
         </div>
   </section>;
 };

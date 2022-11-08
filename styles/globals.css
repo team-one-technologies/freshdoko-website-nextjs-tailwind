@@ -18,8 +18,8 @@ span.fromLeft:after {
   display: block;
   content: "";
   left: 0;
-  border-bottom: 0.125rem solid #3cc82f;
-  border-radius: 2px;
+  border-bottom: 0.155rem solid #3cc82f;
+  border-radius: 3px;
   transition: all 250ms ease;
   -webkit-transition: all 250ms ease;
   width: 0;

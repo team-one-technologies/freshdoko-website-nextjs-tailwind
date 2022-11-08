@@ -15,7 +15,7 @@ const Features = () => {
 
         <div className="mt-10">
           <div className="grid md:grid-cols-3 lg:gap-x-12">
-            <div className="mb-12 lg:mb-0 bg-white/40 rounded-2xl shadow-xl backdrop-blur-xl hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 px-4 py-4">
+            <div className="mb-12 lg:mb-0 bg-green/10 rounded-2xl shadow-xl backdrop-blur-xl hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 px-4 py-4">
               <div className="p-4  bg-green rounded-full shadow-lg inline-block mb-6 ">
                 <svg
                   className="w-5 h-5 text-white"
@@ -35,7 +35,7 @@ const Features = () => {
               </p>
             </div>
 
-            <div className="mb-12 lg:mb-0 bg-white/40 rounded-2xl shadow-xl backdrop-blur-xl hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 px-4 py-4">
+            <div className="mb-12 lg:mb-0 bg-green/10 rounded-2xl shadow-xl backdrop-blur-xl hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 px-4 py-4">
               <div className="p-4  bg-green rounded-full shadow-lg inline-block mb-6">
                 <svg
                   className="w-5 h-5 text-white"
@@ -55,7 +55,7 @@ const Features = () => {
               </p>
             </div>
 
-            <div className="mb-12 md:mb-0 bg-white/40 rounded-2xl shadow-xl backdrop-blur-xl hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 px-4 py-4">
+            <div className="mb-12 md:mb-0 bg-green/10 rounded-2xl shadow-xl backdrop-blur-xl hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 px-4 py-4">
               <div className="p-4  bg-green rounded-full shadow-lg inline-block mb-6">
                 <svg
                   className="w-5 h-5 text-white"
