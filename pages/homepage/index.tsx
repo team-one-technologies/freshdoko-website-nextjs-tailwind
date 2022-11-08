@@ -57,14 +57,14 @@ const Homepage = () => {
               src="/img/leaf.png"
               alt=""
             />
-            <span className="flex items-center px-1 text-xl text-green-500">
+            <span className="flex items-center px-1 text-xl text-green">
               <span className="font-medium">100% Organic Vegetable</span>
               <img className="w-auto h-8" src="/img/vegetable.png" alt="" />
             </span>
             <h1 className="pt-4 text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tighter leading-tight whitespace-nowrap">
               Healthy Lifestyle <br />
               is your only <br />
-              <span className="whitespace-nowrap text-green-500">
+              <span className="whitespace-nowrap text-green">
                 {" "}
                 unfair advantage{" "}
               </span>
@@ -82,16 +82,16 @@ const Homepage = () => {
               </button>
             </div>
             <div className="flex pt-20">
-              <img className="w-24" src="/img/chef.png" alt="" />
+              <img className="w-[100px] h-[100px]" src="/img/tomato.png" alt="" />
               <div className="pt-5 pl-3">
                 <div className="text-xl font-bold leading-relaxed">
-                  Chef of the month
+                  Vegetable of the day
                 </div>
                 <div className="inline-flex text-gray-600 leading-relaxed">
-                  People loved his 🍳
+                  People loved this 	&#x1F9E1;
                 </div>
-                <div className="font-bold text-green-500 leading-relaxed">
-                  80+ famous dishes
+                <div className="font-bold text-green leading-relaxed">
+                  80+ oranic vegetable
                 </div>
               </div>
             </div>
