@@ -70,7 +70,7 @@ const Homepage = () => {
               </span>
             </h1>
             <p className="pt-8 sm:text-lg max-w-md font-normal text-gray-600 leading-relaxed">
-              Choose healthy habits with Organo veggies produced by our
+              Choose healthy habits with Organic veggies produced by our
               local farmers.
             </p>
             <div className="flex pt-8 space-x-4 sm:space-x-6">
