@@ -2,20 +2,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* 
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+.active {
+  border-bottom: 0.125rem solid #3cc82f;
+  pointer-events: none;
+  width: 100%;
+
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+span.fromLeft {
+  line-height: 2;
 }
 
-* {
-  box-sizing: border-box;
-} */
+span.fromLeft:after {
+  display: block;
+  content: "";
+  left: 0;
+  border-bottom: 0.125rem solid #3cc82f;
+  border-radius: 2px;
+  transition: all 250ms ease;
+  -webkit-transition: all 250ms ease;
+  width: 0;
+}
+
+span.fromLeft:hover:after {
+  width: 100%;
+}
