@@ -25,7 +25,7 @@ const Homepage = () => {
     </div> */}
         <nav className="flex justify-between items-center py-8 px-6 mx-auto max-w-screen-xl md:px-12 lg:px-16 xl:px-24">
           <a href="#" className="text-3xl md:text-4xl font-bold tracking-wide">
-            Dok<span className="text-green-500">o</span>
+            <span className="text-green">Fresh Doko</span>
           </a>
           <div
             className="inset-0 transition-all bg-white/70 backdrop-blur-xl z-20 md:static md:bg-transparent md:flex items-center justify-center space-y-8 md:space-y-0 md:space-x-8 flex-col md:flex-row lg:space-x-14"
@@ -58,7 +58,7 @@ const Homepage = () => {
               alt=""
             />
             <span className="flex items-center px-1 text-xl text-green-500">
-              <span className="font-medium">100% Organic food</span>
+              <span className="font-medium">100% Organic Vegetable</span>
               <img className="w-auto h-8" src="/img/vegetable.png" alt="" />
             </span>
             <h1 className="pt-4 text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tighter leading-tight whitespace-nowrap">
@@ -70,8 +70,8 @@ const Homepage = () => {
               </span>
             </h1>
             <p className="pt-8 sm:text-lg max-w-md font-normal text-gray-600 leading-relaxed">
-              Choose healthy habits with Organo daily meal prepared by our
-              expert nutritionist and chef
+              Choose healthy habits with Organo veggies produced by our
+              local farmers.
             </p>
             <div className="flex pt-8 space-x-4 sm:space-x-6">
               <button className="flex justify-center items-center w-full sm:w-auto h-13 px-8 bg-green font-medium text-white rounded-xl whitespace-nowrap hover:shadow-primary transition-shadow duration-300">
@@ -138,7 +138,7 @@ const Homepage = () => {
               </div>
             </div>
             <div className="hidden md:flex justify-end space-x-1 font-bold">
-              <span>Powered by</span>
+              <span>Powered by </span><span className="text-orange-600">TeamOne Technologies</span>
               {/* <Image
                 src={"/icons/fueler.svg"}
                 height={"6"}
@@ -146,11 +146,11 @@ const Homepage = () => {
                 alt=" "
                 className="w-6 h-6 text-gray-900 fill-current"
               /> */}
-              <img
+              {/* <img
                 className="w-8 h-8 text-gray-900 fill-current"
                 src="/img/temone.png"
                 alt="logo"
-              />
+              /> */}
             </div>
           </div>
         </div>
