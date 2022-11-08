@@ -14,7 +14,7 @@ const Features = () => {
         </div>
 
         <div className="mt-10">
-          <div className="grid md:grid-cols-3 lg:gap-x-12">
+          <div className="grid md:grid-cols-3 gap-x-10">
             <div className="mb-12 lg:mb-0 bg-green/10 rounded-2xl shadow-xl backdrop-blur-xl hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 px-4 py-4">
               <div className="p-4  bg-green rounded-full shadow-lg inline-block mb-6 ">
                 <svg

@@ -105,7 +105,7 @@ export default function NavBar() {
                   href="/delivery"
                   passHref={true}
                   activeClassName="active"
-                  className={`${router.pathname === "/delivery" ? "px-3 py-2 flex items-center font-semibold leading-snug text-lg  mr-4 text-green pointer-events-none":"px-3 py-2 flex items-center text-xs font-medium leading-snug text-lg  mr-4"}`}
+                  className={`${router.pathname === "/delivery" ? "px-3 py-2 flex items-center font-semibold leading-snug text-lg  mr-4 text-green pointer-events-none ":"px-3 py-2 flex items-center font-medium leading-snug text-lg  mr-4 text-black"}`}
                 
                 >
                   <button>
@@ -119,7 +119,7 @@ export default function NavBar() {
                   href="/pricing"
                   passHref={true}
                   activeClassName="active"
-                  className={`${router.pathname === "/pricing" ? "px-3 py-2 flex items-center font-semibold leading-snug text-lg  mr-4 text-green pointer-events-none":"px-3 py-2 flex items-center text-xs font-medium leading-snug text-lg  mr-4"}`}
+                  className={`${router.pathname === "/pricing" ? "px-3 py-2 flex items-center font-semibold leading-snug text-lg  mr-4 text-green pointer-events-none":"px-3 py-2 flex items-center font-medium leading-snug text-lg  mr-4 text-black"}`}
                 >
                   <button>
                     <i className="fab fa-twitter text-lg leading-lg opacity-75"></i>
@@ -132,7 +132,7 @@ export default function NavBar() {
                   href="/faq"
                   passHref={true}
                   activeClassName="active"
-                  className={`${router.pathname === "/faq" ? "px-3 py-2 flex items-center font-semibold leading-snug text-lg  mr-4 text-green pointer-events-none":"px-3 py-2 flex items-center text-xs font-medium leading-snug text-lg  mr-4"}`}
+                  className={`${router.pathname === "/faq" ? "px-3 py-2 flex items-center font-semibold leading-snug text-lg  mr-4 text-green pointer-events-none":"px-3 py-2 flex items-center font-medium leading-snug text-lg  mr-4 text-black"}`}
                 >
                   <button>
                     <i className="fab fa-pinterest text-lg leading-lg opacity-75"></i>
@@ -145,7 +145,7 @@ export default function NavBar() {
                   href="/contact"
                   passHref={true}
                   activeClassName="active"
-                  className={`${router.pathname === "/contact" ? "px-3 py-2 flex items-center font-semibold leading-snug text-lg  mr-4 text-green pointer-events-none":"px-3 py-2 flex items-center text-xs font-medium leading-snug text-lg  mr-4"}`}
+                  className={`${router.pathname === "/contact" ? "px-3 py-2 flex items-center font-semibold leading-snug text-lg  mr-4 text-green pointer-events-none":"px-3 py-2 flex items-center font-medium leading-snug text-lg  mr-4 text-black"}`}
                 >
                   <button>
                     <i className="fab fa-pinterest text-lg leading-lg opacity-75"></i>
