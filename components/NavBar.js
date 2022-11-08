@@ -29,8 +29,8 @@ export default function NavBar() {
   return (
     <>
       <nav
-        className={` flex header flex-wrap fixed w-full h-14 items-center justify-between px-2 py-3 z-50 bg-transparent text-gray-800 transition duration-1000${
-          goindDown ? "header--narrow " : ""
+        className={` flex header flex-wrap fixed w-full   items-center justify-between px-2 py-3 z-50  text-gray-800 transition duration-1000${
+          goindDown ? "header--narrow bg-gradient-to-br from-transparent to-green-100 shadow-lg" : ""
         }`}
       >
         <div className="container px-4 mx-auto flex flex-wrap items-start justify-between">
