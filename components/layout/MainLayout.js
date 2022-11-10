@@ -1,6 +1,6 @@
 import Footer from "../Footer";
 import NavBar from "../NavBar";
-import PageLayout from "./pageLayout";
+
 const MainLayout = ({ children }) => {
   return (
     <div className="bg-gradient-to-br   from-transparent to-green-100 ">
