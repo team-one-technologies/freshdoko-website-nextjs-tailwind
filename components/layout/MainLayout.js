@@ -1,4 +1,3 @@
-
 import Footer from "../Footer";
 import NavBar from "../NavBar";
 import PageLayout from "./pageLayout";
@@ -7,8 +6,8 @@ const MainLayout = ({ children }) => {
     <div className="bg-gradient-to-br   from-transparent to-green-100 ">
       <NavBar />
 
-          {children}
-        
+      {children}
+
       <Footer />
     </div>
   );

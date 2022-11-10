@@ -1,8 +1,8 @@
-import Contact from "./Contact";
+import Contact from "./contact";
 import Delivery from "./delivery";
 import FAQ from "./faq";
 import Features from "./features";
-import Home from "./Home";
+import Home from "./home";
 import Pricing from "./pricing";
 
 const Index = () => {
