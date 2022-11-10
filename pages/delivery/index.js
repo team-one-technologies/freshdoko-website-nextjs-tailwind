@@ -1,10 +1,13 @@
-const Features = () => {
+import PageLayout from "../../components/layout/pageLayout";
+
+const Delivery = () => {
   return (
-    <div className="py-12">
+    <PageLayout>
+       <div className="py-12">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
           <p className="mt-2 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">
-            The future of Fresh Produce supply chain is Fresh Doko
+           Delivery
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
             We are pioneers in solving one of the toughest supply chain problems
@@ -78,6 +81,9 @@ const Features = () => {
         </div>
       </div>
     </div>
+    
+    </PageLayout>
   );
 };
-export default Features;
+
+export default Delivery;

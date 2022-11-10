@@ -1,11 +1,15 @@
-import NavBar from "../NavBar";
+
 import Footer from "../Footer";
+import NavBar from "../NavBar";
+import PageLayout from "./pageLayout";
 const MainLayout = ({ children }) => {
   return (
-    <div className="bg-gradient-to-br from-transparent to-green-100">
+    <div className="bg-gradient-to-br   from-transparent to-green-100 ">
       <NavBar />
-      {children}
-      <Footer/>
+
+          {children}
+        
+      <Footer />
     </div>
   );
 };

@@ -1,14 +1,21 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import Homepage from '../components/HomeComponents/home'
-import Features from '../components/HomeComponents/feature'
+import Contact from "./Contact";
+import Delivery from "./delivery";
+import FAQ from "./faq";
+import Features from "./features";
+import Home from "./Home";
+import Pricing from "./pricing";
 
-export default function Home() {
+const Index = () => {
   return (
-    <div>
-      <Homepage></Homepage>
-      <Features></Features>
-    </div>
-  )
-}
+    <>
+   <Home />
+   <Features />
+    <Delivery />
+    <Pricing />
+    <FAQ />
+    <Contact />  
+    </>
+  );
+};
+
+export default Index;
